@@ -2,7 +2,7 @@
 #container{
     width: 50%;
     margin: auto;
-    height:fit-content;
+    height:auto;
     border: 2px solid white;
     text-align: center;
     background-color: rgb(53, 44, 44);
@@ -10,7 +10,7 @@
    
 }
 .head{
-    font-size: larger;
+    font-size: 30px;
     font-weight: bolder;
     color:rgb(250, 244, 244);
     
@@ -20,7 +20,7 @@
 }
 .input input{
     width: 95%;
-    height: 40px;
+    height: 70px;
     background-color: rgb(78, 110, 78);
     border: 3px solid black;
     font-weight: bolder;
@@ -38,8 +38,10 @@
 #btn button{
     background-color: black;
     color: white;
+    font-size: larger;
+    font-weight: bolder;
     width: 15%;
-    height:30px;
+    height:50px;
     box-shadow: 2px 2px 5px rgb(245, 243, 243);
     border-radius: 10px;
 }
