@@ -9,10 +9,8 @@ function work(e){
    document.getElementById('inp').value=''
   }
 
-  function clearAll() {
-   var b = document.getElementById('inp');
-   const currentText = inp.value;
-   if (currentText.length > 0) {
-     inp.value = currentText.slice(0, -1);
-   }
- }
+ function clearAll() {
+  var b = document.getElementById('inp');
+   c =  b.value;
+   b.value = c.slice(0,-1)
+}
